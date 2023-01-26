@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "date": "string",
+    "weather": "sunny",
+    "visibility": "ok",
+    "comment": "string"
+  },
+  {
+    "id": 1,
+    "date": "string 1",
+    "weather": "sunny",
+    "visibility": "good",
+    "comment": "string 1"
+  },
+  {
+    "id": 2,
+    "date": "string 2",
+    "weather": "sunny",
+    "visibility": "poor",
+    "comment": "string 2"
+  }
+]

@@ -11,8 +11,8 @@ app.get("/ping", (_req, res) => {
   res.send("pong");
 });
 
+app.use("/api/diaries", diariesRouter);
+
 app.listen(PORT, () => {
   console.log(`⚡️[server]: Server is running at https://localhost:${PORT}`);
 });
-
-app.use("/api/diaries", diariesRouter);
